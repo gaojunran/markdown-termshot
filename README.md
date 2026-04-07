@@ -4,7 +4,7 @@
 
 它会扫描 Markdown 中的 shell 代码块，找出其中**每个非空行都以 `$` 开头**的命令块，调用 `termshot` 执行命令并截图，然后把原来的代码块替换为 Markdown 图片引用。
 
-> [!WARN]
+> [!WARNING]
 > 代码由 GPT-5.4 完成。提示词见 [PROMPT.md](./PROMPT.md)。仅测试过简单案例和我自己的作业，未经充分测试和 Review。
 
 ## AI 时代的大学作业报告应该怎么做？
